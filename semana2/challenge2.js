@@ -1,16 +1,15 @@
 function divisibleByLeft(n) {
   //Implementación
-  let newNum = 0;
+  output = [];
+  str = n.toString();
 
-  if (typeof number !== "number") {
-    throw Error("Error: Tipo de dato no admitido.");
+  for (const key in str) {
+    str[key] % str[key - 1] === 0 ? output.push(true) : output.push(false);
   }
 
-  newNum =
-    parseFloat(number.toString().split("").reverse().join("")) *
-    Math.sign(number);
-
-  return newNum;
+  return output;
 }
 
 module.exports = divisibleByLeft;
+
+console.log(divisibleByLeft(73312));
