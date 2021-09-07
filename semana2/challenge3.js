@@ -10,5 +10,3 @@ function arrayOfMultiples(num, length) {
 }
 
 module.exports = arrayOfMultiples;
-
-console.log(arrayOfMultiples(7, 5));

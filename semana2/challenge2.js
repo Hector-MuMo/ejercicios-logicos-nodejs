@@ -8,6 +8,8 @@ function divisibleByLeft(n) {
   }
 
   return output;
+  //Implementación
+  return 0;
 }
 
 module.exports = divisibleByLeft;
