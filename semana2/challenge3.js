@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function arrayOfMultiples(num, length) {
   const output = [];
 
@@ -7,6 +8,10 @@ function arrayOfMultiples(num, length) {
   }
 
   return output;
+=======
+function arrayOfMultiples (num, length) {
+  return 0;
+>>>>>>> c99f0300d3fa3aadc807150dc0bcb86a35e550e9
 }
 
 module.exports = arrayOfMultiples;

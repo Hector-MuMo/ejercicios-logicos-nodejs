@@ -1,4 +1,5 @@
 function divisibleByLeft(n) {
+<<<<<<< HEAD
   //Implementación
   output = [];
   str = n.toString();
@@ -8,6 +9,10 @@ function divisibleByLeft(n) {
   }
 
   return output;
+=======
+    //Implementación
+    return 0;
+>>>>>>> c99f0300d3fa3aadc807150dc0bcb86a35e550e9
 }
 
 module.exports = divisibleByLeft;

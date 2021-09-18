@@ -1,4 +1,5 @@
 function twoSums(numbs, target) {
+<<<<<<< HEAD
   //Implementación
   let output = [];
 
@@ -11,6 +12,9 @@ function twoSums(numbs, target) {
       }
     }
   }
+=======
+    
+>>>>>>> c99f0300d3fa3aadc807150dc0bcb86a35e550e9
 }
 
 module.exports = twoSums;
